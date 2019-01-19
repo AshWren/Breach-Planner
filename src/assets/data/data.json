@@ -1,0 +1,457 @@
+[
+    {
+        "class": "Arcane Mender",
+        "school": "Arcane",
+        "role": "Support",
+        "desc": "A sustained healer that works best from range.",
+        "img": "",
+        "spells": [
+            {
+                "key": "1",
+                "name": "Guardian Sprite",
+                "max_charges": "",
+                "cooldown": "20 seconds",
+                "desc": "Applies a Damage Shield to target ally or yourself for up to 1000 damage and increases Bonus Healing Received by 50% over 6s.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "Purification",
+                "max_charges": "",
+                "cooldown": "20 seconds",
+                "desc": "Cleanses and makes target ally or yourself immune to Ailment effects for 9s.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "Transcendent Blast",
+                "max_charges": "",
+                "cooldown": "",
+                "desc": "Transference of accumulated power into a magical blast dealing 150/300/550/900/1350/1900 damage to target enemy based on Transcendent Blast stacks.",
+                "desc2": "Transcendent Blast stacks accrue every 400/600/1200/2200/3600/5400 healing done and applied Damage Shield consumption. Stacks consumed on use.",
+                "add_info": "Consumes Transcendent Blast stacks to deal instant damage to a target enemy. Current stack count can be seen above and to the left of your health bar.",
+                "unlock_level": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "Heal",
+                "max_charges": "2",
+                "cooldown": "",
+                "desc": "Instantly heals target ally or yourself for 1500 Health.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "Mending Wave",
+                "max_charges": "3",
+                "cooldown": "18 seconds",
+                "desc": "Heals yourself and all allies in a line for 400 Health.",
+                "desc2": "Passive: +500 Health",
+                "add_info": "",
+                "unlock_level": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "class": "Chronomancer",
+        "school": "Arcane",
+        "role": "Specialist",
+        "desc": "Manipulate time to slow groups of enemies, both defending and enabling your team.",
+        "img": "",
+        "spells": [
+            {
+                "key": "1",
+                "name": "Haste",
+                "max_charges": "",
+                "cooldown": "20 seconds",
+                "desc": "Applies a 20% Haste, Bonus Damage, and Bonus Healing to target ally and yourself for 8s.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "Temporal Field",
+                "max_charges": "",
+                "cooldown": "30 seconds",
+                "desc": "Create a centralized area of time manipulation, applying a 40% Slow to all enemy targets within the area for up to 10s. Buff and Debuff durations are altered.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "Chronoleap",
+                "max_charges": "",
+                "cooldown": "18 seconds",
+                "desc": "Leaps into the future, avoiding damage for up to 4s and cleansing Aliment effects.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "Cease Continuum",
+                "max_charges": "",
+                "cooldown": "",
+                "desc": "All enemies and projectiles are brought to a near complete stop for 20s. Buff and Debuff durations are altered.",
+                "desc2": "Passive: All Ultimate Accrual rates are reduced by 50%.",
+                "add_info": "",
+                "unlock_level": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "Stasis Beam",
+                "max_charges": "",
+                "cooldown": "10s - 20 seconds",
+                "desc": "Channels a beam for up to 10s, dealing 55-1100 damage and stacking a 12% slow every 0.5s to a maximum of 60%. Buff and Debuff durations are altered.",
+                "desc2": "Passive: +500 Health.",
+                "add_info": "",
+                "unlock_level": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "class": "Elementist",
+        "school": "Arcane",
+        "role": "Support",
+        "desc": "Anticipate burst damage and positioning to protect your allies and create areas of denial.",
+        "img": "",
+        "spells": [
+            {
+                "key": "1",
+                "name": "Meteor",
+                "max_charges": "",
+                "cooldown": "13 seconds",
+                "desc": "Summons a meteor at target location dealing 280 fire damage and moderate impact, and applying burn to all enemies in an area. Burn deals 250 fire damage plus 100 fire damage per additional stack over 10s.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "Aqueous Globe",
+                "max_charges": "",
+                "cooldown": "30 seconds",
+                "desc": "Summons a dome at target location which blocks incoming projectiles and increases Damage Resistance of allies inside by 20%. Lasts 20s.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "Quake",
+                "max_charges": "",
+                "cooldown": "25 seconds",
+                "desc": "Summons an earthquake at target location which deals 100 damage and an additional 180 damage and medium impact over 10s in an area.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "Elemental Quintessence",
+                "max_charges": "",
+                "cooldown": "",
+                "desc": "Revives and heals all nearby allies for 650 health, plus 750 health over 6s.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "Glacial Armor",
+                "max_charges": "",
+                "cooldown": "15 seconds",
+                "desc": "Applies a Damage Shield to target ally or yourself for up to 1000 damage over 5s. Cooldown is reduced by 1s for every 65 damage soaked.",
+                "desc2": "Passive: +500 Health",
+                "add_info": "",
+                "unlock_level": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "class": "Demon Hunter",
+        "school": "Hedge",
+        "role": "Assassin",
+        "desc": "A mid-range Assassin that uses demonic artifacts to ensnare, entrap, and eradicate the enemy.",
+        "img": "",
+        "spells": [
+            {
+                "key": "1",
+                "name": "Marked Shot",
+                "max_charges": "",
+                "cooldown": "12 seconds",
+                "desc": "Deal 250 damage to target enemy and decrease their Damage Resistance by 20% for 6s",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "Binding Circle",
+                "max_charges": "",
+                "cooldown": "20 seconds",
+                "desc": "Create a trap at your location, once triggered it deals 150 damage and applies Root to all enemies until the trap fades. Lasts 6s. Breaches cannot be placed on Binding Circle.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "Banishing Relic",
+                "max_charges": "",
+                "cooldown": "30 seconds",
+                "desc": "Deal 225 damage, Interrupt and Banish target Strong or Elite enemy for 10s. Banish freezes the NPC, but prevents players from attacking it. Cannot be used on Possessed targets. Can be ended early by activating the spell a second time",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "Siphoning Skull",
+                "max_charges": "",
+                "cooldown": "",
+                "desc": "Channels a beam for up to 8s, applying Stun and dealing 335 damage to target enemy. Converts 50% of the damage dealt to restore health.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "Sticky Grenade",
+                "max_charges": "4",
+                "cooldown": "3.5 seconds",
+                "desc": "Propel a grenade that will stick to anything it hits. After being stuck, the grenade will explode after 0.5s, dealing 350 damage to all enemies in the area.",
+                "desc2": "Passive: +15% Bonus Basic Attack Damage",
+                "add_info": "Usable in the air.",
+                "unlock_level": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "class": "Exorcist",
+        "school": "Hedge",
+        "role": "Specialist",
+        "desc": "Prevent Veil Demons from possessing and empowering your enemies as an Exorcist. Then execute your weakened enemies with explosive munitions and combat-ready talismans.",
+        "img": "",
+        "spells": [
+            {
+                "key": "1",
+                "name": "Hallowed Spike",
+                "max_charges": "",
+                "cooldown": "21 seconds",
+                "desc": "Deals 50 damage and curses the target enemy with a 25% Slow and 2 stacks of bleed. Bleed deals 280 bleeding damage plus 80 bleeding damage per additional stack over 8s.",
+                "desc2": "",
+                "add_info": "Usable in the air.",
+                "unlock_level": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "Confound",
+                "max_charges": "",
+                "cooldown": "20 seconds",
+                "desc": "Deal 80 damage and Interrupt target enemy.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "Explosive Shell",
+                "max_charges": "",
+                "cooldown": "16 seconds",
+                "desc": "Deals 500 damage and very high impact to all enemies hit. Enemies affected by Expel take an additional 500 damage.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "Exilium Daemonium",
+                "max_charges": "",
+                "cooldown": "",
+                "desc": "Deals 225, very high impact and applies Expel to all enemies for 5s. Expel forces the target to be de-possessed and prevents re-possession.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "",
+                "max_charges": "",
+                "cooldown": "12 seconds",
+                "desc": "Deals 200 and moderate impact to all enemies hit. Also applies Expel for 5s if target is possessed. Expel forces the target to be de-possessed and prevents re-possession.",
+                "desc2": "Passive: +15% Bonus Basic Attack Damage",
+                "add_info": "",
+                "unlock_level": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "class": "Occultist",
+        "school": "Hedge",
+        "role": "Support",
+        "desc": "A short ranged fighter that uses occultist powers to summon and borrow demonic powers.",
+        "img": "",
+        "spells": [
+            {
+                "key": "1",
+                "name": "Incendiary Shots",
+                "max_charges": "",
+                "cooldown": "8 seconds",
+                "desc": "Shoot a spread of shots, each dealing 115 fire damage.",
+                "desc2": "",
+                "add_info": "Usable in the air.",
+                "unlock_level": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "Hellfire",
+                "max_charges": "",
+                "cooldown": "20 seconds",
+                "desc": "You draw upon the power in your artifact to create an aura, dealing 100 fire damage and removing Buffs every 1s second from all enemies nearby. Lasts 5s.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "Projectile Ward",
+                "max_charges": "25 seconds",
+                "cooldown": "",
+                "desc": "Applies a buff that reduces incoming ranged damage to 0%, instead dealing that damage back to the caster. Lasts 6s.",
+                "desc2": "",
+                "add_info": "Usable in the air.",
+                "unlock_level": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "Healing Pact",
+                "max_charges": "4",
+                "cooldown": "",
+                "desc": "Heals nearby allies for 1000.",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "",
+                "max_charges": "",
+                "cooldown": "6 seconds",
+                "desc": "Deals 75 damage to a target area, applying Tar and a 20% Slow for 15s. Tar increases your Impact Resistance to attacks from the target. Fire damage will ignite the target, applying Burning Tar.",
+                "desc2": "Passive: Moderate Impact Resistance, +1 Dodge.",
+                "add_info": "",
+                "unlock_level": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "class": "",
+        "school": "",
+        "role": "",
+        "desc": "",
+        "img": "",
+        "spells": [
+            {
+                "key": "1",
+                "name": "",
+                "max_charges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "",
+                "max_charges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "",
+                "max_charges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "",
+                "max_charges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "",
+                "max_charges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "add_info": "",
+                "unlock_level": "-1",
+                "img": ""
+            }
+        ]
+    }
+]

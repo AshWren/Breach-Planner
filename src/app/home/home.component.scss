@@ -1,0 +1,52 @@
+.container {
+    width: 100%;
+    background-color: #18213a;
+
+    header {
+        .title {
+            text-align: center;
+            font-family: 'Crimson Text', serif;
+    
+            h1 {
+                font-weight: 400;
+                font-size: 4em;
+            } // h1
+
+        } // .title
+
+
+        .filters {
+
+            .school-filter {
+                display: flex; 
+                justify-content: flex-end;
+                padding-top: 30px;
+
+                .mr-3 {
+                    margin-right: 0rem!important;
+
+                    .btn-group {
+                        .btn {
+                            padding: 5px 45px;
+                            background-color: #4ba3c7;
+                            
+                            
+
+                            .dropdown-menu {
+                                
+                            }//.dropdown-menu
+
+                        }// .btn
+                        .dropdown-toggle::after {
+                            margin-left: 15px;
+                        }// .dropdown-toggle::after
+                    }// .btn-group
+                }// .mr-3
+
+            }// .school-filter 
+
+        } // .filters
+
+    }  // header
+
+} //  .container
