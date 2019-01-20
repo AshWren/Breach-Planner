@@ -20,7 +20,8 @@ import { DataService } from '../shared/services/data.service';
 
 export class HomeComponent implements OnInit {
 
-  data: Data;
+  data: Data[];
+  
 
   constructor(
     private dataService: DataService,
@@ -32,7 +33,12 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.dataService.getData()
-      .subscribe(data => this.data = data)
+      .subscribe(data => this.data = data);
+    
+
+
+
+
   }
 
 }
