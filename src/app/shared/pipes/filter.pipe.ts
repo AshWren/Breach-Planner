@@ -1,18 +1,18 @@
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe, PipeTransform, Injectable } from '@angular/core';
+
 
 @Pipe({
-  name: 'filter'
+  name: 'filter',
+  pure: false
 })
+
+@Injectable()
 export class FilterPipe implements PipeTransform {
-
-  transform(items: any[], searchText: string): any[] {
-    if(!items) return [];
-    if(!searchText) return items;
-
-    searchText = searchText.toLowerCase();
-      return items.filter( it => {
-        return it.name.toLowerCase().includes(searchText);
-      });
+  
+  transform(charClasses: Array<any>): any {
+    console.log('charClasses', charClasses);
+    return charClasses.filter(char => char.school === 'Arcane')
   }
+
 
 }

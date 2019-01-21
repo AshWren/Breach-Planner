@@ -9,7 +9,8 @@
             <div class="btn-group mr-3">
                 <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
                   <button class="btn" ngbDropdownToggle>School</button>
-                  <div class="dropdown-menu" ngbDropdownMenu aria-labelledby="dropdownConfig">
+                  <div class="dropdown-menu " ngbDropdownMenu aria-labelledby="dropdownConfig">
+                      
                     <button class="dropdown-item">
                       Arcane
                     </button>
@@ -31,9 +32,8 @@
                 </div>
               </div>
         </div>
-        <div class="rolefilter">
 
-        </div>
+
       </div>
 
   </header>
@@ -41,9 +41,20 @@
 <div class="class-list-container">
 
   <div class="class-list" *ngFor="let item of data">
-    <h2>{{item.class}}</h2>
+   {{item.class}}
 
   </div>
 </div>
   
 </div>
+
+<div class="form form-inline">
+  <div class="form-check" *ngFor="let school of schools">
+    <label class='form-check-label'>
+      <input type="checkbox" class="form-check-input" [(ngModel)]="school.checked" [value]='school.value'> {{school.value}}
+    </label>
+  </div>
+</div>
+
+<pre>Selected Schools: <span *ngFor="let school of checked()">{{school.value}}</span></pre>
+

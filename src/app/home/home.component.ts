@@ -4,6 +4,7 @@ import { NgbDropdownConfig } from '@ng-bootstrap/ng-bootstrap';
 
 import { Data } from '../shared/data';
 import { DataService } from '../shared/services/data.service';
+// import { FilterPipe } from '../shared/pipes/filter.pipe';
 
 @Component({
   selector: 'app-home',
@@ -19,10 +20,15 @@ import { DataService } from '../shared/services/data.service';
 
 
 export class HomeComponent implements OnInit {
+  public charClass: Array<any>;
+  public schools: Array<any>;
 
-  data: Data[];
+
+  data: Data[] = [];
+  filteredSchool: Data[];
   
 
+  
   constructor(
     private dataService: DataService,
     config: NgbDropdownConfig,
@@ -31,12 +37,29 @@ export class HomeComponent implements OnInit {
     config.autoClose = false;
   }
 
+  checked() {
+    return this.schools.filter(item => {return item.checked; });
+  }
+
+  createFilters() {
+    this.schools = [
+      {
+        value: 'Arcane',
+        checked: false
+      },
+      {
+        value: 'Hedge',
+        checked: false
+      }
+    ]
+  }
+
   ngOnInit() {
     this.dataService.getData()
       .subscribe(data => this.data = data);
     
 
-
+    this.createFilters();
 
 
   }
