@@ -4,7 +4,6 @@ import { NgbDropdownConfig } from '@ng-bootstrap/ng-bootstrap';
 
 import { Data } from '../shared/data';
 import { DataService } from '../shared/services/data.service';
-// import { FilterPipe } from '../shared/pipes/filter.pipe';
 
 @Component({
   selector: 'app-home',
@@ -36,6 +35,8 @@ export class HomeComponent implements OnInit {
     config.placement = 'bottom';
     config.autoClose = false;
   }
+
+  filterSchool = '';
 
   checked() {
     return this.schools.filter(item => {return item.checked; });

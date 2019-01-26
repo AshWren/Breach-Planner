@@ -39,8 +39,11 @@
   </header>
   
 <div class="class-list-container">
-
-  <div class="class-list" *ngFor="let item of data">
+<input type="text" [(ngModel)]="filteredSchool">
+<hr>
+  <div 
+    class="class-list" 
+    *ngFor="let item of data | filter:filteredSchool:'school'">
    {{item.class}}
 
   </div>
