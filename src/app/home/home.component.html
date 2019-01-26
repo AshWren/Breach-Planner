@@ -38,8 +38,20 @@
 
   </header>
   
+<div class="form form-inline">
+    <div class="form-check" *ngFor="let school of schools">
+      <label class='form-check-label'>
+        <input type="checkbox" 
+          class="form-check-input" 
+          [(ngModel)]="school.checked" 
+          [value]='school.value'
+          (change)='onSchoolCheck(school.value, school.checked)'> {{school.value}}
+      </label>
+    </div>
+  </div>
+
 <div class="class-list-container">
-<input type="text" [(ngModel)]="filteredSchool">
+<!-- <input type="text" [(ngModel)]="filteredSchool"> -->
 <hr>
   <div 
     class="class-list" 
@@ -51,13 +63,7 @@
   
 </div>
 
-<div class="form form-inline">
-  <div class="form-check" *ngFor="let school of schools">
-    <label class='form-check-label'>
-      <input type="checkbox" class="form-check-input" [(ngModel)]="school.checked" [value]='school.value'> {{school.value}}
-    </label>
-  </div>
-</div>
+
 
 <pre>Selected Schools: <span *ngFor="let school of checked()">{{school.value}}</span></pre>
 
