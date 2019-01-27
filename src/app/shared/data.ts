@@ -1,4 +1,5 @@
 export class Data {
+    slug: string;
     class: string;
     school: string;
     role: string;

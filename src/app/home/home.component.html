@@ -5,32 +5,38 @@
       </div>
   </header>
   
-  <div class="form form-inline">
-    <div class="form-check" *ngFor="let school of schools">
+  <div class="filters form form-inline">
+    <div class="school-filter form-check" *ngFor="let school of schools">
       <label class='form-check-label'>
         <input type="checkbox" 
           class="form-check-input" 
           [(ngModel)]="school.checked" 
           [value]='school.value'
           (change)='onSchoolCheck(school.value, school.checked)'> 
-          {{school.value}}
+          <div class="school-value">
+            {{school.value}}
+          </div>
         </label>
       </div>
     </div>
     
-<div class="class-list-container row">
-<hr>
-  <div 
-    class="class-list col-sm-3" 
-    *ngFor="let item of data | filter:filteredSchool:'school'">
-    {{item.class}}
+  <div class="class-list-container">
+    <div 
+      class="class-list col-sm-3" 
+      *ngFor="let item of data | filter:filteredSchool:'school'">
 
-
-    <img class='item-img' src="{{item.relativeImgPath}}"  alt="">
-
+      <img 
+        class='item-img' 
+        src="{{item.relativeImgPath}}"  
+        alt=""
+        [routerLink]="['/details', item.slug ]"
+        routerLinkActive="active" >
+        
+      <div class="item-class">
+        {{item.class}}
+      </div>
+    </div>
   </div>
-</div>
-  
 </div>
 
 <!-- 

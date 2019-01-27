@@ -1,10 +1,11 @@
 [
     {
+        "slug": "arcane-mender",
         "class": "Arcane Mender",
         "school": "Arcane",
         "role": "Support",
         "desc": "A sustained healer that works best from range.",
-        "img": "arcane-mender/arcane-mender",
+        "img": "arcane-mender",
         "spells": [
             {
                 "key": "1",
@@ -15,7 +16,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "2",
-                "img": "arcane-mender/guardian-sprite"
+                "img": "guardian-sprite"
             },
             {
                 "key": "2",
@@ -26,7 +27,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "4",
-                "img": "arcane-mender/purification"
+                "img": "purification"
 
             },
             {
@@ -38,7 +39,7 @@
                 "desc2": "Transcendent Blast stacks accrue every 400/600/1200/2200/3600/5400 healing done and applied Damage Shield consumption. Stacks consumed on use.",
                 "addInfo": "Consumes Transcendent Blast stacks to deal instant damage to a target enemy. Current stack count can be seen above and to the left of your health bar.",
                 "unlockLevel": "6",
-                "img": "arcane-mender/transcendent-blast"
+                "img": "transcendent-blast"
             },
             {
                 "key": "4",
@@ -49,7 +50,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "8",
-                "img": "arcane-mender/heal"
+                "img": "heal"
             },
             {
                 "key": "Signature",
@@ -60,16 +61,17 @@
                 "desc2": "Passive: +500 Health",
                 "addInfo": "",
                 "unlockLevel": "-1",
-                "img": "arcane-mender/mending-wave"
+                "img": "mending-wave"
             }
         ]
     },
     {
+        "slug": "chronomancer",
         "class": "Chronomancer",
         "school": "Arcane",
         "role": "Specialist",
         "desc": "Manipulate time to slow groups of enemies, both defending and enabling your team.",
-        "img": "chronomancer/chronomancer",
+        "img": "chronomancer",
         "spells": [
             {
                 "key": "1",
@@ -80,7 +82,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "2",
-                "img": "chronomancer/haste"
+                "img": "haste"
             },
             {
                 "key": "2",
@@ -91,7 +93,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "4",
-                "img": "chronomancer/temporal-field"
+                "img": "temporal-field"
 
             },
             {
@@ -103,7 +105,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "6",
-                "img": "chronomancer/chronoleap"
+                "img": "chronoleap"
             },
             {
                 "key": "4",
@@ -114,7 +116,7 @@
                 "desc2": "Passive: All Ultimate Accrual rates are reduced by 50%.",
                 "addInfo": "",
                 "unlockLevel": "8",
-                "img": "chronomancer/cease-continuum"
+                "img": "cease-continuum"
             },
             {
                 "key": "Signature",
@@ -125,16 +127,17 @@
                 "desc2": "Passive: +500 Health.",
                 "addInfo": "",
                 "unlockLevel": "-1",
-                "img": "chronomancer/stasis-beam"
+                "img": "stasis-beam"
             }
         ]
     },
     {
+        "slug": "elementalist",
         "class": "Elementist",
         "school": "Arcane",
         "role": "Support",
         "desc": "Anticipate burst damage and positioning to protect your allies and create areas of denial.",
-        "img": "elementalist/elementalist",
+        "img": "elementalist",
         "spells": [
             {
                 "key": "1",
@@ -145,7 +148,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "2",
-                "img": "elementalist/meteor"
+                "img": "meteor"
             },
             {
                 "key": "2",
@@ -156,7 +159,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "4",
-                "img": "elementalist/aqueous-globe"
+                "img": "aqueous-globe"
 
             },
             {
@@ -168,7 +171,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "6",
-                "img": "elementalist/quake"
+                "img": "quake"
             },
             {
                 "key": "4",
@@ -179,7 +182,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "8",
-                "img": "elementalist/elemental-quintessence"
+                "img": "elemental-quintessence"
             },
             {
                 "key": "Signature",
@@ -190,16 +193,17 @@
                 "desc2": "Passive: +500 Health",
                 "addInfo": "",
                 "unlockLevel": "-1",
-                "img": "elementalist/glacial-armor"
+                "img": "glacial-armor"
             }
         ]
     },
     {
+        "slug": "demon-hunter",
         "class": "Demon Hunter",
         "school": "Hedge",
         "role": "Assassin",
         "desc": "A mid-range Assassin that uses demonic artifacts to ensnare, entrap, and eradicate the enemy.",
-        "img": "demon-hunter/demon-hunter",
+        "img": "demon-hunter",
         "spells": [
             {
                 "key": "1",
@@ -210,7 +214,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "2",
-                "img": "demon-hunter/marked-shot"
+                "img": "marked-shot"
             },
             {
                 "key": "2",
@@ -221,7 +225,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "4",
-                "img": "demon-hunter/binding-circle"
+                "img": "binding-circle"
 
             },
             {
@@ -233,7 +237,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "6",
-                "img": "demon-hunter/banishing-relic"
+                "img": "banishing-relic"
             },
             {
                 "key": "4",
@@ -244,7 +248,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "8",
-                "img": "demon-hunter/siphoning-skull"
+                "img": "siphoning-skull"
             },
             {
                 "key": "Signature",
@@ -255,16 +259,17 @@
                 "desc2": "Passive: +15% Bonus Basic Attack Damage",
                 "addInfo": "Usable in the air.",
                 "unlockLevel": "-1",
-                "img": "demon-hunter/sticky-grenade"
+                "img": "sticky-grenade"
             }
         ]
     },
     {
+        "slug": "exorcist",
         "class": "Exorcist",
         "school": "Hedge",
         "role": "Specialist",
         "desc": "Prevent Veil Demons from possessing and empowering your enemies as an Exorcist. Then execute your weakened enemies with explosive munitions and combat-ready talismans.",
-        "img": "exorcist/exorcist",
+        "img": "exorcist",
         "spells": [
             {
                 "key": "1",
@@ -275,7 +280,7 @@
                 "desc2": "",
                 "addInfo": "Usable in the air.",
                 "unlockLevel": "2",
-                "img": "exorcist/hallowed-strike"
+                "img": "hallowed-strike"
             },
             {
                 "key": "2",
@@ -286,7 +291,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "4",
-                "img": "exorcist/confound"
+                "img": "confound"
 
             },
             {
@@ -298,7 +303,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "6",
-                "img": "exorcist/explosive-shell"
+                "img": "explosive-shell"
             },
             {
                 "key": "4",
@@ -309,7 +314,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "8",
-                "img": "exorcist/exilium-daemonium"
+                "img": "exilium-daemonium"
             },
             {
                 "key": "Signature",
@@ -320,16 +325,17 @@
                 "desc2": "Passive: +15% Bonus Basic Attack Damage",
                 "addInfo": "",
                 "unlockLevel": "-1",
-                "img": "exorcist/exorcism"
+                "img": "exorcism"
             }
         ]
     },
     {
+        "slug": "occultist",
         "class": "Occultist",
         "school": "Hedge",
         "role": "Support",
         "desc": "A short ranged fighter that uses occultist powers to summon and borrow demonic powers.",
-        "img": "occultist/occultist",
+        "img": "occultist",
         "spells": [
             {
                 "key": "1",
@@ -340,7 +346,7 @@
                 "desc2": "",
                 "addInfo": "Usable in the air.",
                 "unlockLevel": "2",
-                "img": "occultist/incendiary-shots"
+                "img": "incendiary-shots"
             },
             {
                 "key": "2",
@@ -351,7 +357,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "4",
-                "img": "occultist/hellfire"
+                "img": "hellfire"
 
             },
             {
@@ -363,7 +369,7 @@
                 "desc2": "",
                 "addInfo": "Usable in the air.",
                 "unlockLevel": "6",
-                "img": "occultist/projectile-ward"
+                "img": "projectile-ward"
             },
             {
                 "key": "4",
@@ -374,7 +380,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "8",
-                "img": "occultist/healing-pact"
+                "img": "healing-pact"
             },
             {
                 "key": "Signature",
@@ -385,16 +391,17 @@
                 "desc2": "Passive: Moderate Impact Resistance, +1 Dodge.",
                 "addInfo": "",
                 "unlockLevel": "-1",
-                "img": "occultist/tar-jar"
+                "img": "tar-jar"
             }
         ]
     },
     {
+        "slug": "auros-gladiator",
         "class": "Auros Gladiator",
         "school": "Battle",
         "role": "Assassin",
         "desc": "Lock down one strong enemy at a time with unrivaled, high impact aerial combat.",
-        "img": "auros-gladiator/auros-gladiator",
+        "img": "auros-gladiator",
         "spells": [
             {
                 "key": "1",
@@ -405,7 +412,7 @@
                 "desc2": "",
                 "addInfo": "Usable in the air.",
                 "unlockLevel": "2",
-                "img": "auros-gladiator/auros-grasp"
+                "img": "auros-grasp"
             },
             {
                 "key": "2",
@@ -416,7 +423,7 @@
                 "desc2": "",
                 "addInfo": "Usable in the air.",
                 "unlockLevel": "4",
-                "img": "auros-gladiator/cyclone-blade"
+                "img": "cyclone-blade"
 
             },
             {
@@ -428,7 +435,7 @@
                 "desc2": "",
                 "addInfo": "Usable in the air.",
                 "unlockLevel": "6",
-                "img": "auros-gladiator/downburst"
+                "img": "downburst"
             },
             {
                 "key": "4",
@@ -439,7 +446,7 @@
                 "desc2": "",
                 "addInfo": "Usable in the air.",
                 "unlockLevel": "8",
-                "img": "auros-gladiator/gladiators-wrath"
+                "img": "gladiators-wrath"
             },
             {
                 "key": "Signature",
@@ -450,16 +457,17 @@
                 "desc2": "Passive: Light Impact Resistance, +15% Bonus Basic Attack Damage, +1 Dodge",
                 "addInfo": "While engaged in Aerial Combat: +75% Damage Resistance, Heavy Impact Resistance",
                 "unlockLevel": "-1",
-                "img": "auros-gladiator/zephyr-strike"
+                "img": "zephyr-strike"
             }
         ]
     },
     {
+        "slug": "mana-warrior",
         "class": "Mana Warrior",
         "school": "Battle",
         "role": "Warrior",
         "desc": "Hard hitting spells which bolster your survivability when attacking multiple enemies at once.",
-        "img": "mana-warrior/mana-warrior",
+        "img": "mana-warrior",
         "spells": [
             {
                 "key": "1",
@@ -470,7 +478,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "2",
-                "img": "mana-warrior/cleave"
+                "img": "cleave"
             },
             {
                 "key": "2",
@@ -481,7 +489,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "4",
-                "img": "mana-warrior/arcane-charge"
+                "img": "arcane-charge"
 
             },
             {
@@ -493,7 +501,7 @@
                 "desc2": "",
                 "addInfo": "Usable in air.",
                 "unlockLevel": "6",
-                "img": "mana-warrior/war-cry"
+                "img": "war-cry"
             },
             {
                 "key": "4",
@@ -504,7 +512,7 @@
                 "desc2": "Passive: All Ultimate Accrual Rates are increased by 50%",
                 "addInfo": "",
                 "unlockLevel": "8",
-                "img": "mana-warrior/titans-fist"
+                "img": "titans-fist"
             },
             {
                 "key": "Signature",
@@ -515,15 +523,17 @@
                 "desc2": "Passive: Heavy Impact Resistance, +750 Health, +1 Dodge",
                 "addInfo": "",
                 "unlockLevel": "-1",
-                "img": "mana-warrior/mana-strike"
+                "img": "mana-strike"
             }
         ]
-    },    {
+    },    
+    {
+        "slug": "vanguard",
         "class": "Vanguard",
         "school": "Battle",
         "role": "Support",
         "desc": "Defend your allies and redirect the damage absorbed back at your enemies. Well-timed defensive spells are the key to success.",
-        "img": "vanguard/vanguard",
+        "img": "vanguard",
         "spells": [
             {
                 "key": "1",
@@ -534,7 +544,7 @@
                 "desc2": "",
                 "addInfo": "Usable in the air.",
                 "unlockLevel": "2",
-                "img": "vanguard/guard"
+                "img": "guard"
             },
             {
                 "key": "2",
@@ -545,7 +555,7 @@
                 "desc2": "",
                 "addInfo": "Usable in the air.",
                 "unlockLevel": "4",
-                "img": "vanguard/intervene"
+                "img": "intervene"
 
             },
             {
@@ -557,7 +567,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "6",
-                "img": "vanguard/bastard-cleave"
+                "img": "bastard-cleave"
             },
             {
                 "key": "4",
@@ -568,7 +578,7 @@
                 "desc2": "",
                 "addInfo": "",
                 "unlockLevel": "8",
-                "img": "vanguard/strike-of-the-aegis"
+                "img": "strike-of-the-aegis"
             },
             {
                 "key": "Signature",
@@ -579,336 +589,12 @@
                 "desc2": "Passive: Heavy Impact Resistance, +750 Health, +1 Dodge",
                 "addInfo": "Hero is invulnerable and converts 1,000 points of incoming damage into health for the duration.",
                 "unlockLevel": "-1",
-                "img": "vanguard/resolute-block"
+                "img": "resolute-block"
             }
         ]
     },
     {
-        "class": "",
-        "school": "",
-        "role": "",
-        "desc": "",
-        "img": "",
-        "spells": [
-            {
-                "key": "1",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "2",
-                "img": ""
-            },
-            {
-                "key": "2",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "4",
-                "img": ""
-
-            },
-            {
-                "key": "3",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "6",
-                "img": ""
-            },
-            {
-                "key": "4",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "8",
-                "img": ""
-            },
-            {
-                "key": "Signature",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "-1",
-                "img": ""
-            }
-        ]
-    },
-    {
-        "class": "",
-        "school": "",
-        "role": "",
-        "desc": "",
-        "img": "",
-        "spells": [
-            {
-                "key": "1",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "2",
-                "img": ""
-            },
-            {
-                "key": "2",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "4",
-                "img": ""
-
-            },
-            {
-                "key": "3",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "6",
-                "img": ""
-            },
-            {
-                "key": "4",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "8",
-                "img": ""
-            },
-            {
-                "key": "Signature",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "-1",
-                "img": ""
-            }
-        ]
-    },
-    {
-        "class": "",
-        "school": "",
-        "role": "",
-        "desc": "",
-        "img": "",
-        "spells": [
-            {
-                "key": "1",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "2",
-                "img": ""
-            },
-            {
-                "key": "2",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "4",
-                "img": ""
-
-            },
-            {
-                "key": "3",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "6",
-                "img": ""
-            },
-            {
-                "key": "4",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "8",
-                "img": ""
-            },
-            {
-                "key": "Signature",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "-1",
-                "img": ""
-            }
-        ]
-    },
-    {
-        "class": "",
-        "school": "",
-        "role": "",
-        "desc": "",
-        "img": "",
-        "spells": [
-            {
-                "key": "1",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "2",
-                "img": ""
-            },
-            {
-                "key": "2",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "4",
-                "img": ""
-
-            },
-            {
-                "key": "3",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "6",
-                "img": ""
-            },
-            {
-                "key": "4",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "8",
-                "img": ""
-            },
-            {
-                "key": "Signature",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "-1",
-                "img": ""
-            }
-        ]
-    },
-    {
-        "class": "",
-        "school": "",
-        "role": "",
-        "desc": "",
-        "img": "",
-        "spells": [
-            {
-                "key": "1",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "2",
-                "img": ""
-            },
-            {
-                "key": "2",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "4",
-                "img": ""
-
-            },
-            {
-                "key": "3",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "6",
-                "img": ""
-            },
-            {
-                "key": "4",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "8",
-                "img": ""
-            },
-            {
-                "key": "Signature",
-                "name": "",
-                "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
-                "unlockLevel": "-1",
-                "img": ""
-            }
-        ]
-    },
-    {
+        "slug": "",
         "class": "",
         "school": "",
         "role": "",

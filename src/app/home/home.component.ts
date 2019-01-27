@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { NgbDropdownConfig } from '@ng-bootstrap/ng-bootstrap';
 
 
@@ -20,16 +20,13 @@ import { isNgTemplate } from '@angular/compiler';
 
 
 export class HomeComponent implements OnInit {
-  // public charClass: Array<any>;
   public schools: Array<any>;
-
-
   data: Data[] = [];
   filteredSchool = [];
   image: string;
   url: string;
 
-  
+
 
   constructor(
     private dataService: DataService,
@@ -63,6 +60,10 @@ export class HomeComponent implements OnInit {
       {
         value: 'Hedge',
         checked: false
+      },
+      {
+        value: 'Battle',
+        checked: false
       }
     ]
   }
@@ -71,7 +72,7 @@ export class HomeComponent implements OnInit {
     let myImgPath = './assets/images/';
     let imgType = '_icon.png';
     for(let i = 0; i < data.length; i++) {
-      data[i].relativeImgPath = myImgPath + data[i].img + imgType;
+      data[i].relativeImgPath = myImgPath + data[i].slug + '/' + data[i].img + imgType;
       console.log('rel', data[i].relativeImgPath)
     }
     return data;

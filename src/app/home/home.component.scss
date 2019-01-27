@@ -1,65 +1,84 @@
 .container {
-    width: 100%;
     background-color: #18213a;
+    width: 100%;
     header {
         .title {
-            text-align: center;
             font-family: 'Crimson Text', serif;
+            text-align: center;
     
             h1 {
-                font-weight: 400;
                 font-size: 4em;
+                font-weight: 400;
             } // h1
-
         } // .title
-
-
-        .filters {
-
-            .school-filter {
-                display: flex; 
-                justify-content: flex-end;
-                padding-top: 30px;
-
-                .mr-3 {
-                    margin-right: 0rem!important;
-
-                    .btn-group {
-                        .btn {
-                            padding: 5px 45px;
-                            background-color: #4ba3c7;
-                            
-                            
-
-                            .dropdown-menu {
-                                
-                            }//.dropdown-menu
-
-                        }// .btn
-                        .dropdown-toggle::after {
-                            margin-left: 15px;
-                        }// .dropdown-toggle::after
-                    }// .btn-group
-                }// .mr-3
-
-            }// .school-filter 
-
-        } // .filters
-
     }  // header
 
+    .filters {
 
+        .school-filter {
+            padding: 10px;
+
+            label {
+                input {
+                    margin: 5px;
+                }// input
+
+                .school-value {
+                    font-size: 18px;
+                }// .school-value
+            }// label
+        }// .school-filter 
+    } // .filters
 
 
 
     .class-list-container {
+        display: flex;
+        flex-wrap: wrap;
+        
         .class-list {
+            align-content: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+
             .item-img {
-                height: 50px;
-                width: 50px;
+                height: 100px;
+                margin: 0 auto;
+                width: 100px;
             }// .class-img
+
+            .item-class {
+                font-size: 16px;
+                padding: 5px;
+                text-align: center;
+            }// .item-class
         }// .class-list
     } // .class-list-container
 } //  .container
 
 
+
+
+
+// .mr-3 {
+//     margin-right: 0rem!important;
+
+//     .btn-group {
+//         .btn {
+//             padding: 5px 45px;
+//             background-color: #4ba3c7;
+            
+            
+
+//             .dropdown-menu {
+                
+//             }//.dropdown-menu
+
+//         }// .btn
+//         .dropdown-toggle::after {
+//             margin-left: 15px;
+//         }// .dropdown-toggle::after
+//     }// .btn-group
+// }// .mr-3

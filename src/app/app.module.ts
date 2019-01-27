@@ -10,13 +10,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SharedModule } from './shared/shared.module';
 import { FilterPipe } from './shared/pipes/filter.pipe';
+import { ClassDetailComponent } from './class-detail/class-detail.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    FilterPipe
+    FilterPipe,
+    ClassDetailComponent
   ],
   imports: [
     NgbModule,
