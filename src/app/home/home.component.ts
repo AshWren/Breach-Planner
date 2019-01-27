@@ -67,24 +67,27 @@ export class HomeComponent implements OnInit {
     ]
   }
 
+  buildImgPaths(data) {
+    let myImgPath = './assets/images/';
+    let imgType = '_icon.png';
+    for(let i = 0; i < data.length; i++) {
+      data[i].relativeImgPath = myImgPath + data[i].img + imgType;
+      console.log('rel', data[i].relativeImgPath)
+    }
+    return data;
+  }
+
   
 
 
   ngOnInit() {
      this.dataService.getData()
       .subscribe((data) => {
-        this.data = data
-        console.log('subscribe.this.data[0]', this.data[0])
-        let image = this.data[0].img;
-        this.url = '../../assets/images/'+ image + '.png';
+        this.data = this.buildImgPaths(data);
       });
     
 
     this.createFilters();
-    console.log('this.data[0]', this.data[0])
-
-    // let image = this.data[0].img;
-    // this.url = '../../assets/images/'+ image + '_icon.png';
 
   }
 

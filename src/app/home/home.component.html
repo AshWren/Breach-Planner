@@ -17,34 +17,17 @@
         </label>
       </div>
     </div>
-<!-- 
-    <img src="../../assets/images/Chronomancer/Chronomancer_full_art.png" alt="">
-     -->
-
-     <!-- <img src="../../assets/images/demon_hunter/Demon_Hunter_full_art.png" alt=""> -->
     
 <div class="class-list-container row">
-<!-- <input type="text" [(ngModel)]="filteredSchool"> -->
 <hr>
   <div 
     class="class-list col-sm-3" 
     *ngFor="let item of data | filter:filteredSchool:'school'">
     {{item.class}}
-    <!-- <div
-    [ngStyle]="{'background-image': 'url(' + item.img +')'}" >
 
-    </div> -->
-    <!-- <img class='item-img' src="{{item.img}}" alt="">
-    <img class='item-img' src="../../assets/images/arcane_mender/Arcane_Mender_full_art.png" alt="">
-    <div
-    [ngStyle]="{'background-image': 'url(' + url + ')'}"
-    ></div> -->
 
-    <img class='item-img' src="{{url}}"  alt="">
-    <!-- <div
-    [ngStyle]="{'background-image': 'url(../../../../assets/images/Chronomancer/Chronomancer_full_art.png)'}" >
+    <img class='item-img' src="{{item.relativeImgPath}}"  alt="">
 
-    </div> -->
   </div>
 </div>
   

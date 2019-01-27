@@ -4,63 +4,63 @@
         "school": "Arcane",
         "role": "Support",
         "desc": "A sustained healer that works best from range.",
-        "img": "arcane_mender/arcane-mender",
+        "img": "arcane-mender/arcane-mender",
         "spells": [
             {
                 "key": "1",
                 "name": "Guardian Sprite",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "20 seconds",
                 "desc": "Applies a Damage Shield to target ally or yourself for up to 1000 damage and increases Bonus Healing Received by 50% over 6s.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "2",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": "arcane-mender/guardian-sprite"
             },
             {
                 "key": "2",
                 "name": "Purification",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "20 seconds",
                 "desc": "Cleanses and makes target ally or yourself immune to Ailment effects for 9s.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "4",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": "arcane-mender/purification"
 
             },
             {
                 "key": "3",
                 "name": "Transcendent Blast",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "Transference of accumulated power into a magical blast dealing 150/300/550/900/1350/1900 damage to target enemy based on Transcendent Blast stacks.",
                 "desc2": "Transcendent Blast stacks accrue every 400/600/1200/2200/3600/5400 healing done and applied Damage Shield consumption. Stacks consumed on use.",
-                "add_info": "Consumes Transcendent Blast stacks to deal instant damage to a target enemy. Current stack count can be seen above and to the left of your health bar.",
-                "unlock_level": "6",
-                "img": ""
+                "addInfo": "Consumes Transcendent Blast stacks to deal instant damage to a target enemy. Current stack count can be seen above and to the left of your health bar.",
+                "unlockLevel": "6",
+                "img": "arcane-mender/transcendent-blast"
             },
             {
                 "key": "4",
                 "name": "Heal",
-                "max_charges": "2",
+                "maxCharges": "2",
                 "cooldown": "",
                 "desc": "Instantly heals target ally or yourself for 1500 Health.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "8",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": "arcane-mender/heal"
             },
             {
                 "key": "Signature",
                 "name": "Mending Wave",
-                "max_charges": "3",
+                "maxCharges": "3",
                 "cooldown": "18 seconds",
                 "desc": "Heals yourself and all allies in a line for 400 Health.",
                 "desc2": "Passive: +500 Health",
-                "add_info": "",
-                "unlock_level": "-1",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": "arcane-mender/mending-wave"
             }
         ]
     },
@@ -74,58 +74,58 @@
             {
                 "key": "1",
                 "name": "Haste",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "20 seconds",
                 "desc": "Applies a 20% Haste, Bonus Damage, and Bonus Healing to target ally and yourself for 8s.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "2",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": "chronomancer/haste"
             },
             {
                 "key": "2",
                 "name": "Temporal Field",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "30 seconds",
                 "desc": "Create a centralized area of time manipulation, applying a 40% Slow to all enemy targets within the area for up to 10s. Buff and Debuff durations are altered.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "4",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": "chronomancer/temporal-field"
 
             },
             {
                 "key": "3",
                 "name": "Chronoleap",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "18 seconds",
                 "desc": "Leaps into the future, avoiding damage for up to 4s and cleansing Aliment effects.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "6",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": "chronomancer/chronoleap"
             },
             {
                 "key": "4",
                 "name": "Cease Continuum",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "All enemies and projectiles are brought to a near complete stop for 20s. Buff and Debuff durations are altered.",
                 "desc2": "Passive: All Ultimate Accrual rates are reduced by 50%.",
-                "add_info": "",
-                "unlock_level": "8",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": "chronomancer/cease-continuum"
             },
             {
                 "key": "Signature",
                 "name": "Stasis Beam",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "10s - 20 seconds",
                 "desc": "Channels a beam for up to 10s, dealing 55-1100 damage and stacking a 12% slow every 0.5s to a maximum of 60%. Buff and Debuff durations are altered.",
                 "desc2": "Passive: +500 Health.",
-                "add_info": "",
-                "unlock_level": "-1",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": "chronomancer/stasis-beam"
             }
         ]
     },
@@ -139,58 +139,58 @@
             {
                 "key": "1",
                 "name": "Meteor",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "13 seconds",
                 "desc": "Summons a meteor at target location dealing 280 fire damage and moderate impact, and applying burn to all enemies in an area. Burn deals 250 fire damage plus 100 fire damage per additional stack over 10s.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "2",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": "elementalist/meteor"
             },
             {
                 "key": "2",
                 "name": "Aqueous Globe",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "30 seconds",
                 "desc": "Summons a dome at target location which blocks incoming projectiles and increases Damage Resistance of allies inside by 20%. Lasts 20s.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "4",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": "elementalist/aqueous-globe"
 
             },
             {
                 "key": "3",
                 "name": "Quake",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "25 seconds",
                 "desc": "Summons an earthquake at target location which deals 100 damage and an additional 180 damage and medium impact over 10s in an area.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "6",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": "elementalist/quake"
             },
             {
                 "key": "4",
                 "name": "Elemental Quintessence",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "Revives and heals all nearby allies for 650 health, plus 750 health over 6s.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "8",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": "elementalist/elemental-quintessence"
             },
             {
                 "key": "Signature",
                 "name": "Glacial Armor",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "15 seconds",
                 "desc": "Applies a Damage Shield to target ally or yourself for up to 1000 damage over 5s. Cooldown is reduced by 1s for every 65 damage soaked.",
                 "desc2": "Passive: +500 Health",
-                "add_info": "",
-                "unlock_level": "-1",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": "elementalist/glacial-armor"
             }
         ]
     },
@@ -199,63 +199,63 @@
         "school": "Hedge",
         "role": "Assassin",
         "desc": "A mid-range Assassin that uses demonic artifacts to ensnare, entrap, and eradicate the enemy.",
-        "img": "demon_hunter/Demon_Hunter",
+        "img": "demon-hunter/demon-hunter",
         "spells": [
             {
                 "key": "1",
                 "name": "Marked Shot",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "12 seconds",
                 "desc": "Deal 250 damage to target enemy and decrease their Damage Resistance by 20% for 6s",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "2",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": "demon-hunter/marked-shot"
             },
             {
                 "key": "2",
                 "name": "Binding Circle",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "20 seconds",
                 "desc": "Create a trap at your location, once triggered it deals 150 damage and applies Root to all enemies until the trap fades. Lasts 6s. Breaches cannot be placed on Binding Circle.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "4",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": "demon-hunter/binding-circle"
 
             },
             {
                 "key": "3",
                 "name": "Banishing Relic",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "30 seconds",
                 "desc": "Deal 225 damage, Interrupt and Banish target Strong or Elite enemy for 10s. Banish freezes the NPC, but prevents players from attacking it. Cannot be used on Possessed targets. Can be ended early by activating the spell a second time",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "6",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": "demon-hunter/banishing-relic"
             },
             {
                 "key": "4",
                 "name": "Siphoning Skull",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "Channels a beam for up to 8s, applying Stun and dealing 335 damage to target enemy. Converts 50% of the damage dealt to restore health.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "8",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": "demon-hunter/siphoning-skull"
             },
             {
                 "key": "Signature",
                 "name": "Sticky Grenade",
-                "max_charges": "4",
+                "maxCharges": "4",
                 "cooldown": "3.5 seconds",
                 "desc": "Propel a grenade that will stick to anything it hits. After being stuck, the grenade will explode after 0.5s, dealing 350 damage to all enemies in the area.",
                 "desc2": "Passive: +15% Bonus Basic Attack Damage",
-                "add_info": "Usable in the air.",
-                "unlock_level": "-1",
-                "img": ""
+                "addInfo": "Usable in the air.",
+                "unlockLevel": "-1",
+                "img": "demon-hunter/sticky-grenade"
             }
         ]
     },
@@ -269,58 +269,58 @@
             {
                 "key": "1",
                 "name": "Hallowed Spike",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "21 seconds",
                 "desc": "Deals 50 damage and curses the target enemy with a 25% Slow and 2 stacks of bleed. Bleed deals 280 bleeding damage plus 80 bleeding damage per additional stack over 8s.",
                 "desc2": "",
-                "add_info": "Usable in the air.",
-                "unlock_level": "2",
-                "img": ""
+                "addInfo": "Usable in the air.",
+                "unlockLevel": "2",
+                "img": "exorcist/hallowed-strike"
             },
             {
                 "key": "2",
                 "name": "Confound",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "20 seconds",
                 "desc": "Deal 80 damage and Interrupt target enemy.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "4",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": "exorcist/confound"
 
             },
             {
                 "key": "3",
                 "name": "Explosive Shell",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "16 seconds",
                 "desc": "Deals 500 damage and very high impact to all enemies hit. Enemies affected by Expel take an additional 500 damage.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "6",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": "exorcist/explosive-shell"
             },
             {
                 "key": "4",
                 "name": "Exilium Daemonium",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "Deals 225, very high impact and applies Expel to all enemies for 5s. Expel forces the target to be de-possessed and prevents re-possession.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "8",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": "exorcist/exilium-daemonium"
             },
             {
                 "key": "Signature",
-                "name": "",
-                "max_charges": "",
+                "name": "Exorcism",
+                "maxCharges": "",
                 "cooldown": "12 seconds",
                 "desc": "Deals 200 and moderate impact to all enemies hit. Also applies Expel for 5s if target is possessed. Expel forces the target to be de-possessed and prevents re-possession.",
                 "desc2": "Passive: +15% Bonus Basic Attack Damage",
-                "add_info": "",
-                "unlock_level": "-1",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": "exorcist/exorcism"
             }
         ]
     },
@@ -334,58 +334,58 @@
             {
                 "key": "1",
                 "name": "Incendiary Shots",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "8 seconds",
                 "desc": "Shoot a spread of shots, each dealing 115 fire damage.",
                 "desc2": "",
-                "add_info": "Usable in the air.",
-                "unlock_level": "2",
-                "img": ""
+                "addInfo": "Usable in the air.",
+                "unlockLevel": "2",
+                "img": "occultist/incendiary-shots"
             },
             {
                 "key": "2",
                 "name": "Hellfire",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "20 seconds",
                 "desc": "You draw upon the power in your artifact to create an aura, dealing 100 fire damage and removing Buffs every 1s second from all enemies nearby. Lasts 5s.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "4",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": "occultist/hellfire"
 
             },
             {
                 "key": "3",
                 "name": "Projectile Ward",
-                "max_charges": "25 seconds",
+                "maxCharges": "25 seconds",
                 "cooldown": "",
                 "desc": "Applies a buff that reduces incoming ranged damage to 0%, instead dealing that damage back to the caster. Lasts 6s.",
                 "desc2": "",
-                "add_info": "Usable in the air.",
-                "unlock_level": "6",
-                "img": ""
+                "addInfo": "Usable in the air.",
+                "unlockLevel": "6",
+                "img": "occultist/projectile-ward"
             },
             {
                 "key": "4",
                 "name": "Healing Pact",
-                "max_charges": "4",
+                "maxCharges": "4",
                 "cooldown": "",
                 "desc": "Heals nearby allies for 1000.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "8",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": "occultist/healing-pact"
             },
             {
                 "key": "Signature",
-                "name": "",
-                "max_charges": "",
+                "name": "Tar Jar",
+                "maxCharges": "",
                 "cooldown": "6 seconds",
                 "desc": "Deals 75 damage to a target area, applying Tar and a 20% Slow for 15s. Tar increases your Impact Resistance to attacks from the target. Fire damage will ignite the target, applying Burning Tar.",
                 "desc2": "Passive: Moderate Impact Resistance, +1 Dodge.",
-                "add_info": "",
-                "unlock_level": "-1",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": "occultist/tar-jar"
             }
         ]
     },
@@ -394,63 +394,63 @@
         "school": "Battle",
         "role": "Assassin",
         "desc": "Lock down one strong enemy at a time with unrivaled, high impact aerial combat.",
-        "img": "auros_gladiator/auros_gladiator",
+        "img": "auros-gladiator/auros-gladiator",
         "spells": [
             {
                 "key": "1",
                 "name": "Auros Grasp",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "19 seconds",
                 "desc": "Pulls target enemy to you.",
                 "desc2": "",
-                "add_info": "Usable in the air.",
-                "unlock_level": "2",
-                "img": ""
+                "addInfo": "Usable in the air.",
+                "unlockLevel": "2",
+                "img": "auros-gladiator/auros-grasp"
             },
             {
                 "key": "2",
                 "name": "Cyclone Blade",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "10 seconds",
                 "desc": "Deals 510 damage and very high impact over 2.5s.",
                 "desc2": "",
-                "add_info": "Usable in the air.",
-                "unlock_level": "4",
-                "img": ""
+                "addInfo": "Usable in the air.",
+                "unlockLevel": "4",
+                "img": "auros-gladiator/cyclone-blade"
 
             },
             {
                 "key": "3",
                 "name": "Downburst",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "13 seconds",
                 "desc": "Slams an enemy, dealing 375 damage. Grounded targets are launched into the air, while aerial targets are relaunched into the air.",
                 "desc2": "",
-                "add_info": "Usable in the air.",
-                "unlock_level": "6",
-                "img": ""
+                "addInfo": "Usable in the air.",
+                "unlockLevel": "6",
+                "img": "auros-gladiator/downburst"
             },
             {
                 "key": "4",
                 "name": "Gladiator's Wrath",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "Pulls and repeatedly slams target enemy dealing up to 2000 damage over 6.15s.",
                 "desc2": "",
-                "add_info": "Usable in the air.",
-                "unlock_level": "8",
-                "img": ""
+                "addInfo": "Usable in the air.",
+                "unlockLevel": "8",
+                "img": "auros-gladiator/gladiators-wrath"
             },
             {
                 "key": "Signature",
                 "name": "Zephyr Strike",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "8 seconds",
                 "desc": "Launches you and target enemy into the air. Enemy receives 90 damage and is vulnerable to follow up aerial attacks.",
                 "desc2": "Passive: Light Impact Resistance, +15% Bonus Basic Attack Damage, +1 Dodge",
-                "add_info": "While engaged in Aerial Combat: +75% Damage Resistance, Heavy Impact Resistance",
-                "unlock_level": "-1",
-                "img": ""
+                "addInfo": "While engaged in Aerial Combat: +75% Damage Resistance, Heavy Impact Resistance",
+                "unlockLevel": "-1",
+                "img": "auros-gladiator/zephyr-strike"
             }
         ]
     },
@@ -459,63 +459,63 @@
         "school": "Battle",
         "role": "Warrior",
         "desc": "Hard hitting spells which bolster your survivability when attacking multiple enemies at once.",
-        "img": "mana_warrior/mana_warrior",
+        "img": "mana-warrior/mana-warrior",
         "spells": [
             {
                 "key": "1",
                 "name": "Cleave",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "9 seconds",
                 "desc": "A broad swing which deals 100-300 damage to enemies based on distance, and an additional 100-500 damage to Taunted targets.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "2",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": "mana-warrior/cleave"
             },
             {
                 "key": "2",
                 "name": "Arcane Charge",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "8 seconds",
                 "desc": "Charge to and deal 200 damage and high impact to target enemy.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "4",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": "mana-warrior/arcane-charge"
 
             },
             {
                 "key": "3",
                 "name": "War Cry",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "15 seconds",
                 "desc": "Taunts nearby enemies, forcing them to attack the caster for 8s.",
                 "desc2": "",
-                "add_info": "Usable in air.",
-                "unlock_level": "6",
-                "img": ""
+                "addInfo": "Usable in air.",
+                "unlockLevel": "6",
+                "img": "mana-warrior/war-cry"
             },
             {
                 "key": "4",
                 "name": "Titan's Fist",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "Slams weapon into ground, delivering 800 damage and extreme impact to all enemies in front of you. Refunds 75% of your ultimate Progress if no enemies are hit.",
                 "desc2": "Passive: All Ultimate Accrual Rates are increased by 50%",
-                "add_info": "",
-                "unlock_level": "8",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": "mana-warrior/titans-fist"
             },
             {
                 "key": "Signature",
                 "name": "Mana Strike",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "4 seconds",
                 "desc": "Slams weapon into the ground delivering 125 damage to nearby enemies, while granting you a stacking Damage Shield equal to 10% of max Health per enemy hit, up to 50% of your max Health. Lasts 8s.",
                 "desc2": "Passive: Heavy Impact Resistance, +750 Health, +1 Dodge",
-                "add_info": "",
-                "unlock_level": "-1",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": "mana-warrior/mana-strike"
             }
         ]
     },    {
@@ -528,57 +528,122 @@
             {
                 "key": "1",
                 "name": "Guard",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "Guard target ally so long as distance between you and ally is <10m. Target gains 80% Damage Resistance. You take 75% of the mitigated damage.",
                 "desc2": "",
-                "add_info": "Usable in the air.",
-                "unlock_level": "2",
-                "img": ""
+                "addInfo": "Usable in the air.",
+                "unlockLevel": "2",
+                "img": "vanguard/guard"
             },
             {
                 "key": "2",
                 "name": "Intervene",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "12 seconds",
                 "desc": "Rush to your target ally, dealing 80 damage and impulsing nearby enemies away on arrival.",
                 "desc2": "",
-                "add_info": "Usable in the air.",
-                "unlock_level": "4",
-                "img": ""
+                "addInfo": "Usable in the air.",
+                "unlockLevel": "4",
+                "img": "vanguard/intervene"
 
             },
             {
                 "key": "3",
                 "name": "Bastard Cleave",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "A broad swing dealing 100 damage, or 135/240/415/660/975/1360 damage based on the number of Bastard Cleave buff stacks, plus 50% Lifesteal if you have 2 or more stacks of Bastard Cleave. A Bastard Cleave stack is accrued after taking 200/250/400/650/1000/1450 damage. All stacks are consumed on use.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "6",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": "vanguard/bastard-cleave"
             },
             {
                 "key": "4",
                 "name": "Strike of the Aegis",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "Pulls enemies over 5s, then deals 875 damage and high impact to all nearby enemies. You have 90% Damage Resistance for duration.",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "8",
-                "img": ""
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": "vanguard/strike-of-the-aegis"
             },
             {
                 "key": "Signature",
                 "name": "Resolute Block",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "10 seconds",
                 "desc": "Channels a reactive block, converting up to 1,000 of incoming damage into health for 2s.",
                 "desc2": "Passive: Heavy Impact Resistance, +750 Health, +1 Dodge",
-                "add_info": "Hero is invulnerable and converts 1,000 points of incoming damage into health for the duration.",
-                "unlock_level": "-1",
+                "addInfo": "Hero is invulnerable and converts 1,000 points of incoming damage into health for the duration.",
+                "unlockLevel": "-1",
+                "img": "vanguard/resolute-block"
+            }
+        ]
+    },
+    {
+        "class": "",
+        "school": "",
+        "role": "",
+        "desc": "",
+        "img": "",
+        "spells": [
+            {
+                "key": "1",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "-1",
                 "img": ""
             }
         ]
@@ -593,57 +658,57 @@
             {
                 "key": "1",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "2",
+                "addInfo": "",
+                "unlockLevel": "2",
                 "img": ""
             },
             {
                 "key": "2",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "4",
+                "addInfo": "",
+                "unlockLevel": "4",
                 "img": ""
 
             },
             {
                 "key": "3",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "6",
+                "addInfo": "",
+                "unlockLevel": "6",
                 "img": ""
             },
             {
                 "key": "4",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "8",
+                "addInfo": "",
+                "unlockLevel": "8",
                 "img": ""
             },
             {
                 "key": "Signature",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "-1",
+                "addInfo": "",
+                "unlockLevel": "-1",
                 "img": ""
             }
         ]
@@ -658,57 +723,57 @@
             {
                 "key": "1",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "2",
+                "addInfo": "",
+                "unlockLevel": "2",
                 "img": ""
             },
             {
                 "key": "2",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "4",
+                "addInfo": "",
+                "unlockLevel": "4",
                 "img": ""
 
             },
             {
                 "key": "3",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "6",
+                "addInfo": "",
+                "unlockLevel": "6",
                 "img": ""
             },
             {
                 "key": "4",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "8",
+                "addInfo": "",
+                "unlockLevel": "8",
                 "img": ""
             },
             {
                 "key": "Signature",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "-1",
+                "addInfo": "",
+                "unlockLevel": "-1",
                 "img": ""
             }
         ]
@@ -723,57 +788,57 @@
             {
                 "key": "1",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "2",
+                "addInfo": "",
+                "unlockLevel": "2",
                 "img": ""
             },
             {
                 "key": "2",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "4",
+                "addInfo": "",
+                "unlockLevel": "4",
                 "img": ""
 
             },
             {
                 "key": "3",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "6",
+                "addInfo": "",
+                "unlockLevel": "6",
                 "img": ""
             },
             {
                 "key": "4",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "8",
+                "addInfo": "",
+                "unlockLevel": "8",
                 "img": ""
             },
             {
                 "key": "Signature",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "-1",
+                "addInfo": "",
+                "unlockLevel": "-1",
                 "img": ""
             }
         ]
@@ -788,57 +853,57 @@
             {
                 "key": "1",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "2",
+                "addInfo": "",
+                "unlockLevel": "2",
                 "img": ""
             },
             {
                 "key": "2",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "4",
+                "addInfo": "",
+                "unlockLevel": "4",
                 "img": ""
 
             },
             {
                 "key": "3",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "6",
+                "addInfo": "",
+                "unlockLevel": "6",
                 "img": ""
             },
             {
                 "key": "4",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "8",
+                "addInfo": "",
+                "unlockLevel": "8",
                 "img": ""
             },
             {
                 "key": "Signature",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "-1",
+                "addInfo": "",
+                "unlockLevel": "-1",
                 "img": ""
             }
         ]
@@ -853,122 +918,57 @@
             {
                 "key": "1",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "2",
+                "addInfo": "",
+                "unlockLevel": "2",
                 "img": ""
             },
             {
                 "key": "2",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "4",
+                "addInfo": "",
+                "unlockLevel": "4",
                 "img": ""
 
             },
             {
                 "key": "3",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "6",
+                "addInfo": "",
+                "unlockLevel": "6",
                 "img": ""
             },
             {
                 "key": "4",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "8",
+                "addInfo": "",
+                "unlockLevel": "8",
                 "img": ""
             },
             {
                 "key": "Signature",
                 "name": "",
-                "max_charges": "",
+                "maxCharges": "",
                 "cooldown": "",
                 "desc": "",
                 "desc2": "",
-                "add_info": "",
-                "unlock_level": "-1",
-                "img": ""
-            }
-        ]
-    },
-    {
-        "class": "",
-        "school": "",
-        "role": "",
-        "desc": "",
-        "img": "",
-        "spells": [
-            {
-                "key": "1",
-                "name": "",
-                "max_charges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "add_info": "",
-                "unlock_level": "2",
-                "img": ""
-            },
-            {
-                "key": "2",
-                "name": "",
-                "max_charges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "add_info": "",
-                "unlock_level": "4",
-                "img": ""
-
-            },
-            {
-                "key": "3",
-                "name": "",
-                "max_charges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "add_info": "",
-                "unlock_level": "6",
-                "img": ""
-            },
-            {
-                "key": "4",
-                "name": "",
-                "max_charges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "add_info": "",
-                "unlock_level": "8",
-                "img": ""
-            },
-            {
-                "key": "Signature",
-                "name": "",
-                "max_charges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "add_info": "",
-                "unlock_level": "-1",
+                "addInfo": "",
+                "unlockLevel": "-1",
                 "img": ""
             }
         ]
