@@ -84,7 +84,7 @@ export class HomeComponent implements OnInit {
     console.log('this.data[0]', this.data[0])
 
     // let image = this.data[0].img;
-    // this.url = '../../assets/images/'+ image + '.png';
+    // this.url = '../../assets/images/'+ image + '_icon.png';
 
   }
 
