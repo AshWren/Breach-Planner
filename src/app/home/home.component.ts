@@ -26,9 +26,11 @@ export class HomeComponent implements OnInit {
 
   data: Data[] = [];
   filteredSchool = [];
-  
+  image: string;
+  url: string;
 
   
+
   constructor(
     private dataService: DataService,
     config: NgbDropdownConfig,
@@ -65,13 +67,24 @@ export class HomeComponent implements OnInit {
     ]
   }
 
+  
+
+
   ngOnInit() {
-    this.dataService.getData()
-      .subscribe(data => this.data = data);
+     this.dataService.getData()
+      .subscribe((data) => {
+        this.data = data
+        console.log('subscribe.this.data[0]', this.data[0])
+        let image = this.data[0].img;
+        this.url = '../../assets/images/'+ image + '.png';
+      });
     
 
     this.createFilters();
+    console.log('this.data[0]', this.data[0])
 
+    // let image = this.data[0].img;
+    // this.url = '../../assets/images/'+ image + '.png';
 
   }
 

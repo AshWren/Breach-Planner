@@ -3,13 +3,71 @@
       <div class="title">
           <h1>Breach Planner</h1>
       </div>
+  </header>
+  
+  <div class="form form-inline">
+    <div class="form-check" *ngFor="let school of schools">
+      <label class='form-check-label'>
+        <input type="checkbox" 
+          class="form-check-input" 
+          [(ngModel)]="school.checked" 
+          [value]='school.value'
+          (change)='onSchoolCheck(school.value, school.checked)'> 
+          {{school.value}}
+        </label>
+      </div>
+    </div>
+<!-- 
+    <img src="../../assets/images/Chronomancer/Chronomancer_full_art.png" alt="">
+     -->
 
-      <div class="filters"> 
+     <!-- <img src="../../assets/images/demon_hunter/Demon_Hunter_full_art.png" alt=""> -->
+    
+<div class="class-list-container row">
+<!-- <input type="text" [(ngModel)]="filteredSchool"> -->
+<hr>
+  <div 
+    class="class-list col-sm-3" 
+    *ngFor="let item of data | filter:filteredSchool:'school'">
+    {{item.class}}
+    <!-- <div
+    [ngStyle]="{'background-image': 'url(' + item.img +')'}" >
+
+    </div> -->
+    <!-- <img class='item-img' src="{{item.img}}" alt="">
+    <img class='item-img' src="../../assets/images/arcane_mender/Arcane_Mender_full_art.png" alt="">
+    <div
+    [ngStyle]="{'background-image': 'url(' + url + ')'}"
+    ></div> -->
+
+    <img class='item-img' src="{{url}}"  alt="">
+    <!-- <div
+    [ngStyle]="{'background-image': 'url(../../../../assets/images/Chronomancer/Chronomancer_full_art.png)'}" >
+
+    </div> -->
+  </div>
+</div>
+  
+</div>
+
+<!-- 
+
+<pre>Selected Schools: <span *ngFor="let school of checked()">{{school.value}}</span></pre> -->
+
+
+
+
+
+      <!-- <div class="filters"> 
         <div class="school-filter">
             <div class="btn-group mr-3">
-                <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
+                <div class="form form-inline btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
                   <button class="btn" ngbDropdownToggle>School</button>
-                  <div class="dropdown-menu " ngbDropdownMenu aria-labelledby="dropdownConfig">
+                  <div 
+                    class="dropdown-menu " 
+                    ngbDropdownMenu 
+                    aria-labelledby="dropdownConfig">
+                    
                       
                     <button class="dropdown-item">
                       Arcane
@@ -34,36 +92,4 @@
         </div>
 
 
-      </div>
-
-  </header>
-  
-<div class="form form-inline">
-    <div class="form-check" *ngFor="let school of schools">
-      <label class='form-check-label'>
-        <input type="checkbox" 
-          class="form-check-input" 
-          [(ngModel)]="school.checked" 
-          [value]='school.value'
-          (change)='onSchoolCheck(school.value, school.checked)'> {{school.value}}
-      </label>
-    </div>
-  </div>
-
-<div class="class-list-container">
-<!-- <input type="text" [(ngModel)]="filteredSchool"> -->
-<hr>
-  <div 
-    class="class-list" 
-    *ngFor="let item of data | filter:filteredSchool:'school'">
-   {{item.class}}
-
-  </div>
-</div>
-  
-</div>
-
-
-
-<pre>Selected Schools: <span *ngFor="let school of checked()">{{school.value}}</span></pre>
-
+      </div> -->

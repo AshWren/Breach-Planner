@@ -4,7 +4,7 @@
         "school": "Arcane",
         "role": "Support",
         "desc": "A sustained healer that works best from range.",
-        "img": "",
+        "img": "../../assets/images/arcane_mender/Arcane_Mender_full_art",
         "spells": [
             {
                 "key": "1",
@@ -69,7 +69,7 @@
         "school": "Arcane",
         "role": "Specialist",
         "desc": "Manipulate time to slow groups of enemies, both defending and enabling your team.",
-        "img": "",
+        "img": "../../assets/images/chronomancer/chronomancer_full_art.png",
         "spells": [
             {
                 "key": "1",
@@ -134,7 +134,7 @@
         "school": "Arcane",
         "role": "Support",
         "desc": "Anticipate burst damage and positioning to protect your allies and create areas of denial.",
-        "img": "",
+        "img": "elementalist/elementalist_full_art",
         "spells": [
             {
                 "key": "1",
@@ -199,7 +199,7 @@
         "school": "Hedge",
         "role": "Assassin",
         "desc": "A mid-range Assassin that uses demonic artifacts to ensnare, entrap, and eradicate the enemy.",
-        "img": "",
+        "img": "../../assets/images/demon_hunter/Demon_Hunter_full_art.png",
         "spells": [
             {
                 "key": "1",
@@ -264,7 +264,7 @@
         "school": "Hedge",
         "role": "Specialist",
         "desc": "Prevent Veil Demons from possessing and empowering your enemies as an Exorcist. Then execute your weakened enemies with explosive munitions and combat-ready talismans.",
-        "img": "",
+        "img": "../../assets/images/exorcist/exorcist_full_art.png",
         "spells": [
             {
                 "key": "1",
@@ -329,7 +329,7 @@
         "school": "Hedge",
         "role": "Support",
         "desc": "A short ranged fighter that uses occultist powers to summon and borrow demonic powers.",
-        "img": "",
+        "img": "../../assets/images/occultist/occultist_full_art.png",
         "spells": [
             {
                 "key": "1",
