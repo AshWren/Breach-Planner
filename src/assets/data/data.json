@@ -726,12 +726,210 @@
         ]
     },
     {
-        "slug": "",
-        "class": "",
-        "school": "",
+        "slug": "reaper",
+        "class": "Reaper",
+        "school": "Dark",
+        "role": "Warrior",
+        "desc": "A 'debuff tank' that weakens and controls groups of enemies.",
+        "img": "reaper",
+        "spells": [
+            {
+                "key": "1",
+                "name": "Reap",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "Consumes all Sow debuffs in the area to restore 210 health per total stacks and deal 210 damage to afflicted enemies.",
+                "desc2": "",
+                "addInfo": "Usable in the air.",
+                "unlockLevel": "2",
+                "img": "reap"
+            },
+            {
+                "key": "2",
+                "name": "Grasp of Death",
+                "maxCharges": "",
+                "cooldown": "27 seconds",
+                "desc": "The dead claw from the ground, dealing up to 120 damage and applying Root to enemies in target area. Lasts 15s",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": "grasp-of-death"
+
+            },
+            {
+                "key": "3",
+                "name": "Death's Beckon",
+                "maxCharges": "",
+                "cooldown": "15 seconds",
+                "desc": "Sends out souls in a 10m area around you that deals 75 damage and will slow all enemies by 40% for 6s. Usable during CC.",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": "deaths-beckon"
+            },
+            {
+                "key": "4",
+                "name": "Grim Reaper Form",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "You become immune to damage, receive 60% Haste. Lasts 15s. Triggers automatically if health reaches 0.",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": "grim-reaper-form"
+            },
+            {
+                "key": "Signature",
+                "name": "Sow",
+                "maxCharges": "3",
+                "cooldown": "6 seconds",
+                "desc": "Strikes all enemies in front of you, dealing 150 damage and decreasing Bonus Damage by 15%. Additional stacks reduce by an additional 5%.",
+                "desc2": "Passive: Heavy Impact Resistance, +750 Health, +1 Dodge",
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": "sow"
+            }
+        ]
+    },
+    {
+        "slug": "bloodstalker",
+        "class": "Bloodstalker",
+        "school": "Shadow",
+        "role": "Warrior",
+        "desc": "Blood magic spells which enable you to tank with rapid life draining attacks and interrupts.",
+        "img": "bloodstalker",
+        "spells": [
+            {
+                "key": "1",
+                "name": "Deathroot Dagger",
+                "maxCharges": "",
+                "cooldown": "8 seconds",
+                "desc": "A thrown dagger which deals 85 damage and applies Root for 5s to hit enemy.",
+                "desc2": "",
+                "addInfo": "Usable in the air",
+                "unlockLevel": "2",
+                "img": "deathroot-dagger"
+            },
+            {
+                "key": "2",
+                "name": "Debilitating Wound",
+                "maxCharges": "",
+                "cooldown": "12 seconds",
+                "desc": "Deal 45 damage and Interrupt target enemy.",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": "debilitating-wound"
+
+            },
+            {
+                "key": "3",
+                "name": "Lacerate",
+                "maxCharges": "",
+                "cooldown": "6 seconds",
+                "desc": "Deals 275 damage and applies Bleed to the target enemy. Bleed deals 280 bleeding damage plus 80 bleeding damage per additional stack over 8s",
+                "desc2": "",
+                "addInfo": "Usable in the air",
+                "unlockLevel": "6",
+                "img": "lacerate"
+            },
+            {
+                "key": "4",
+                "name": "Bloodlust",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "You gain 50% Haste and 125% Lifesteal for 10s.",
+                "desc2": "",
+                "addInfo": "Usable in the air",
+                "unlockLevel": "8",
+                "img": "bloodlust"
+            },
+            {
+                "key": "Signature",
+                "name": "Cursed Strike",
+                "maxCharges": "",
+                "cooldown": "8 seconds",
+                "desc": "Deals 300 damage and applies Blood Curse to target enemy. Only one can be active at a time. Your attacks against an enemy with Blood Curse heal you for 35% of the damage dealt, plus a flat bonus 35% heal for Bleeding targets. Subsequent attacks against same target deal an additional flat 300 damage, and heal you for an additional 30% heal.",
+                "desc2": "Passive: Heavy Impact Resistance, +750 Health, +1 Dodge",
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": "cursed-strike"
+            }
+        ]
+    },
+    {
+        "slug": "nighthawk",
+        "class": "Nighthawk",
+        "school": "Shadow",
+        "role": "Assassin",
+        "desc": "Lock down one strong enemy at a time while avoiding others with fast moving aerial combat.",
+        "img": "nighthawk",
+        "spells": [
+            {
+                "key": "1",
+                "name": "Fleeting Talon",
+                "maxCharges": "3",
+                "cooldown": "6 seconds",
+                "desc": "An escape, dealing 175 damage and applies Root for 3s to target enemy.",
+                "desc2": "",
+                "addInfo": "Usable in the air",
+                "unlockLevel": "2",
+                "img": "fleeting-talon"
+            },
+            {
+                "key": "2",
+                "name": "Talon Frenzy",
+                "maxCharges": "",
+                "cooldown": "10 seconds",
+                "desc": "Launch a frenzied, focused attack on target enemy, dealing 544 damage over 2.5s.",
+                "desc2": "",
+                "addInfo": "Usable in the air",
+                "unlockLevel": "4",
+                "img": "talon-frenzy"
+
+            },
+            {
+                "key": "3",
+                "name": "Dive-Bomb",
+                "maxCharges": "",
+                "cooldown": "13 seconds",
+                "desc": "Slams target and caster down to the ground, dealing 375 damage and massive impact. Deals 125 additional damage if used while in the air.",
+                "desc2": "",
+                "addInfo": "Usable in the air. Deals 1700 impact damage.",
+                "unlockLevel": "6",
+                "img": "dive-bomb"
+            },
+            {
+                "key": "4",
+                "name": "Mob of Ravens",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "Spawn 2 shadow allies that are immune to all damage and last for 20s. During this time they attack enemies with basic attacks, Bird of Prey, and Talon Frenzy.",
+                "desc2": "",
+                "addInfo": "Usable in the air",
+                "unlockLevel": "8",
+                "img": "mob-of-ravens"
+            },
+            {
+                "key": "Signature",
+                "name": "Bird of Prey",
+                "maxCharges": "",
+                "cooldown": "8 seconds",
+                "desc": "Deal 90 damage and launch target into the air. Target becomes vulnerable to additional aerial attacks. Has no cost if used in the air against aerial targets.",
+                "desc2": "Passive: Light Impact Resistance, +15% Bonus Basic Attack Damage, +1 Dodge",
+                "addInfo": "Usable in the air",
+                "unlockLevel": "-1",
+                "img": "bird-of-prey"
+            }
+        ]
+    },
+    {
+        "slug": "shadowblade",
+        "class": "Shadowblade",
+        "school": "Shadow",
         "role": "",
         "desc": "",
-        "img": "",
+        "img": "shadowblade",
         "spells": [
             {
                 "key": "1",
@@ -792,12 +990,12 @@
         ]
     },
     {
-        "slug": "",
-        "class": "",
-        "school": "",
+        "slug": "engineer",
+        "class": "Engineer",
+        "school": "Tech",
         "role": "",
         "desc": "",
-        "img": "",
+        "img": "engineer",
         "spells": [
             {
                 "key": "1",
@@ -858,12 +1056,474 @@
         ]
     },
     {
-        "slug": "",
-        "class": "",
-        "school": "",
+        "slug": "gunslinger",
+        "class": "Gunslinger",
+        "school": "Tech",
         "role": "",
         "desc": "",
-        "img": "",
+        "img": "gunslinger",
+        "spells": [
+            {
+                "key": "1",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "slug": "sniper",
+        "class": "Sniper",
+        "school": "Tech",
+        "role": "",
+        "desc": "",
+        "img": "sniper",
+        "spells": [
+            {
+                "key": "1",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "slug": "chaos-weaver",
+        "class": "Chaos Weaver",
+        "school": "Veil Demon",
+        "role": "",
+        "desc": "",
+        "img": "chaos-weaver",
+        "spells": [
+            {
+                "key": "1",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "slug": "dark-artificer",
+        "class": "Dark Artificer",
+        "school": "Veil Demon",
+        "role": "",
+        "desc": "",
+        "img": "dark-artificer",
+        "spells": [
+            {
+                "key": "1",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "slug": "soulfiend",
+        "class": "Soulfiend",
+        "school": "Veil Demon",
+        "role": "",
+        "desc": "",
+        "img": "soulfiend",
+        "spells": [
+            {
+                "key": "1",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "slug": "task-master",
+        "class": "Task Master",
+        "school": "Veil Demon",
+        "role": "",
+        "desc": "",
+        "img": "task-master",
+        "spells": [
+            {
+                "key": "1",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "slug": "veil-shifter",
+        "class": "Veil Shifter",
+        "school": "Veil Demon",
+        "role": "",
+        "desc": "",
+        "img": "veil-shifter",
+        "spells": [
+            {
+                "key": "1",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "slug": "world-shaper",
+        "class": "World Shaper",
+        "school": "Veil Demon",
+        "role": "",
+        "desc": "",
+        "img": "world-shaper",
         "spells": [
             {
                 "key": "1",

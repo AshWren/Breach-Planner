@@ -58,15 +58,23 @@ export class HomeComponent implements OnInit {
         checked: false
       },
       {
-        value: 'Hedge',
-        checked: false
-      },
-      {
         value: 'Battle',
         checked: false
       },
       {
         value: 'Dark',
+        checked: false
+      },
+      {
+        value: 'Shadow',
+        checked: false
+      },
+      {
+        value: 'Tech',
+        checked: false
+      },
+      {
+        value: 'Veil Demon',
         checked: false
       }
     ]
