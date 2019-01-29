@@ -64,6 +64,10 @@ export class HomeComponent implements OnInit {
       {
         value: 'Battle',
         checked: false
+      },
+      {
+        value: 'Dark',
+        checked: false
       }
     ]
   }

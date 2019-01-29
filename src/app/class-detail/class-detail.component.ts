@@ -19,6 +19,11 @@ export class ClassDetailComponent implements OnInit {
   data: Data[];
   currentClass: Data;
 
+
+  getCurrentClass(data){
+    this.currentClass = this.data.find(item => item.slug === this.slug);
+  }
+
   constructor(private route: ActivatedRoute, public sanitizer: DomSanitizer, private dataService: DataService) { }
 
 
@@ -31,6 +36,7 @@ export class ClassDetailComponent implements OnInit {
       .subscribe((data) => {
         this.data = data;
         console.log('data on subscribe', data);
+        // this.currentClass = this.getCurrentClass(data);
         this.currentClass = data.find(item => item.slug === this.slug);
         console.log('currentClass in subscribe', this.currentClass);
       })  

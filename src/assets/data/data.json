@@ -594,6 +594,270 @@
         ]
     },
     {
+        "slug": "lich",
+        "class": "Lich",
+        "school": "Dark",
+        "role": "Assassin",
+        "desc": "Encapsulate your soul to hide your health pool and deliver unrivaled damage when executed perfectly.",
+        "img": "lich",
+        "spells": [
+            {
+                "key": "1",
+                "name": "Overwhelming Power",
+                "maxCharges": "",
+                "cooldown": "16 seconds",
+                "desc": "Your power emanates as a violent aura, dealing 50 damage per second to all enemies nearby and giving you Heavy Impact Resistance for 6s Usable during CC.",
+                "desc2": "",
+                "addInfo": "Usable in the air",
+                "unlockLevel": "2",
+                "img": "overwhelming-power"
+            },
+            {
+                "key": "2",
+                "name": "Crippling Rake",
+                "maxCharges": "",
+                "cooldown": "16 seconds",
+                "desc": "Send out dark energy, delivering 550 damage and apply a debuff to enemies that cause the next damage you deal from a spell to do 25% more damage. Does not include auras. The debuff lasts 15s.",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": "crippling-rake"
+
+            },
+            {
+                "key": "3",
+                "name": "Phylactery",
+                "maxCharges": "",
+                "cooldown": "20 seconds",
+                "desc": "Places a Phylactery imbued with your soul, making your body immune to damage. Damage received by the Phylactery will be reflected in your health pool. If the Phylactery is destroyed you are left with minimal health. Lasts until destroyed or activate again to remove.",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": "phylactery"
+            },
+            {
+                "key": "4",
+                "name": "Arcane Siphon",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "Silence all enemies nearby for 10s, and receive charges of a Bonus Damage buff based on the number and rank of enemies hit. Each charged grants a 25% Bonus Damage on the following spell.",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": "arcane-siphon"
+            },
+            {
+                "key": "Signature",
+                "name": "Death Touch",
+                "maxCharges": "",
+                "cooldown": "8 seconds",
+                "desc": "Target an enemy and start building up power. Hold to power up even further. Upon release, teleport to the target, Stun them and deal 300 damage plus an additional 220 damage for every second power was built up.",
+                "desc2": "Passive: Light Impact Resistance, +15% Bonus Basic Attack Damage, +1 Dodge",
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": "death-touch"
+            }
+        ]
+    },
+    {
+        "slug": "necromancer",
+        "class": "Necromancer",
+        "school": "Dark",
+        "role": "Specialist",
+        "desc": "Wield Necromantic spells to summon undead. Direct them to attack enemies or bolster allies.",
+        "img": "necromancer",
+        "spells": [
+            {
+                "key": "1",
+                "name": "Command Minion",
+                "maxCharges": "",
+                "cooldown": "2 seconds",
+                "desc": "Command your minion allies to attack target enemy. They will continue to attack target until it is defeated, they can no longer reach it, or are commanded otherwise. Enemies you defeat are turned into an Undead Shamble minion. You can have up to three Shamblers active at once in this way. They last until they are defeated. ",
+                "desc2": "Shambler Sacrifice Effect - explodes dealing 300 damage to nearby enemies.",
+                "addInfo": "Usable in the air",
+                "unlockLevel": "2",
+                "img": "command-minion"
+            },
+            {
+                "key": "2",
+                "name": "Sacrifice Minion",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "Sacrifice target minion. Gain 500 health and trigger minion's sacrifice effect. Usable during CC.",
+                "desc2": "",
+                "addInfo": "Usable in the air",
+                "unlockLevel": "4",
+                "img": "sacrifice-minion"
+
+            },
+            {
+                "key": "3",
+                "name": "Haunting Wraiths",
+                "maxCharges": "",
+                "cooldown": "15 seconds",
+                "desc": "Summons several wraiths that rush forward in a frenzy, delivering 175 damage to enemies and a Damage Shield for up to 400 damage to allies before fading back behind the Veil.",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": "haunting-wraiths"
+            },
+            {
+                "key": "4",
+                "name": "Raise Dead",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "Summon 8 Undead Shambler minions. They last 20s or until defeated.",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": "raise-dead"
+            },
+            {
+                "key": "Signature",
+                "name": "Frenzied Shambler",
+                "maxCharges": "3",
+                "cooldown": "10 seconds",
+                "desc": "Summon a shambler that will travel toward an enemy target. Upon arrival, the shambler will explode dealing 300 damage and high impact.",
+                "desc2": "Passive: +15% Bonus Basic Attack Damage",
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": "frenzied-shambler"
+            }
+        ]
+    },
+    {
+        "slug": "",
+        "class": "",
+        "school": "",
+        "role": "",
+        "desc": "",
+        "img": "",
+        "spells": [
+            {
+                "key": "1",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "slug": "",
+        "class": "",
+        "school": "",
+        "role": "",
+        "desc": "",
+        "img": "",
+        "spells": [
+            {
+                "key": "1",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "2",
+                "img": ""
+            },
+            {
+                "key": "2",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "4",
+                "img": ""
+
+            },
+            {
+                "key": "3",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "6",
+                "img": ""
+            },
+            {
+                "key": "4",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "8",
+                "img": ""
+            },
+            {
+                "key": "Signature",
+                "name": "",
+                "maxCharges": "",
+                "cooldown": "",
+                "desc": "",
+                "desc2": "",
+                "addInfo": "",
+                "unlockLevel": "-1",
+                "img": ""
+            }
+        ]
+    },
+    {
         "slug": "",
         "class": "",
         "school": "",

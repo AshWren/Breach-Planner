@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
+
 
 
 
@@ -23,6 +24,16 @@ export class DataService {
       return this.http.get('../../../assets/data/data.json')
   }
 
+
+//   getCurrentClass(slug: string): Observable<Data>{
+//       return of(DATA.find(data => data.slug === slug))
+//   }
+//   getHero(id: number): Observable<Hero> {
+//     // TODO: send the message _after_ fetching the hero
+//     this.messageService.add(`HeroService: fetched hero id=${id}`);
+//     return of(HEROES.find(hero => hero.id === id));
+//   }
+  
   // getData(){
   //   return this.http.get('./assets/data/about.json')
   //     map((res: Response) => res.json());
