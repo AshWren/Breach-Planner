@@ -53,14 +53,18 @@ export class ClassDetailComponent implements OnInit {
     this.data = await this.dataService.getDataPromise();
     this.currentClass = this.data.find(x => x.slug === this.slug);
     console.log('current class', this.currentClass);
+
+    let myImgPath = './assets/images/';
+    let imgType = '_icon.png';
+    this.imgPath = myImgPath + this.currentClass.slug + '/' + this.currentClass.img + imgType;
+    console.log('imgPath', this.imgPath)
   }
 
   
-  // buildImgPaths(data) {
-  //   let myImgPath = './assets/images/';
-  //   let imgType = '_icon.png';
+  // async buildImgPaths(data) {
     
-  //   this.imgPath =  myImgPath + data.slug + '/' + data.img + imgType;
+    
+    
 
   //   console.log('rel', this.imgPath)
 
