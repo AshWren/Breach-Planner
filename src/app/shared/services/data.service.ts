@@ -24,6 +24,10 @@ export class DataService {
       return this.http.get('../../../assets/data/data.json')
   }
 
+  getDataPromise(): any {
+    return this.http.get('../../../assets/data/data.json').toPromise();
+  }
+
 
 //   getCurrentClass(slug: string): Observable<Data>{
 //       return of(DATA.find(data => data.slug === slug))
