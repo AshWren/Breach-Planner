@@ -927,65 +927,65 @@
         "slug": "shadowblade",
         "class": "Shadowblade",
         "school": "Shadow",
-        "role": "",
-        "desc": "",
+        "role": "Assassin",
+        "desc": "Use shadow magic to ambush enemies and vanish before they can retaliate.",
         "img": "shadowblade",
         "spells": [
             {
                 "key": "1",
-                "name": "",
+                "name": "Lethal Strike",
                 "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
+                "cooldown": "6 seconds",
+                "desc": "Stab target enemy for 400 damage.",
                 "desc2": "",
-                "addInfo": "",
+                "addInfo": "Usable in the air",
                 "unlockLevel": "2",
-                "img": ""
+                "img": "lethal-strike"
             },
             {
                 "key": "2",
-                "name": "",
+                "name": "Assassinate",
                 "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
+                "cooldown": "12 seconds",
+                "desc": "Deals 300 damage, plus 1000 damage if the enemy's health is <50%.",
                 "desc2": "",
-                "addInfo": "",
+                "addInfo": "Usable in the air",
                 "unlockLevel": "4",
-                "img": ""
+                "img": "assassinate"
 
             },
             {
                 "key": "3",
-                "name": "",
+                "name": "Vanish",
                 "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
+                "cooldown": "8 seconds",
+                "desc": "Apply Stealth for up to 7s. You are Unrevealable for the first 1s. Stealth makes you invisible to enemies. Removed when receiving AoE damage or attacking. Unrevealable prevents Stealth from ending on receiving AoE damage.",
                 "desc2": "",
-                "addInfo": "",
+                "addInfo": "Usable in the air",
                 "unlockLevel": "6",
-                "img": ""
+                "img": "vanish"
             },
             {
                 "key": "4",
-                "name": "",
+                "name": "Mass Ambush",
                 "maxCharges": "",
                 "cooldown": "",
-                "desc": "",
+                "desc": "Move at an incredible rate of speed, dealing 1500 damage over 3s to your primary target, and 500 over 3s to all nearby enemies of that target. You are immune for duration.",
                 "desc2": "",
-                "addInfo": "",
+                "addInfo": "Usable in the air",
                 "unlockLevel": "8",
-                "img": ""
+                "img": "mass-ambush"
             },
             {
                 "key": "Signature",
-                "name": "",
+                "name": "Ambush",
                 "maxCharges": "",
-                "cooldown": "",
-                "desc": "",
-                "desc2": "",
-                "addInfo": "",
+                "cooldown": "11.5 seconds",
+                "desc": "Teleport to and deal 350 damage to target enemy, then increases Bonus Damage by 40% for 4s. Cooldown resets if enemy dies within 5.56s.",
+                "desc2": "Passive: Light Impact Resistance, +15% Bonus Basic Attack Damage, +1 Dodge",
+                "addInfo": "Usable in the air",
                 "unlockLevel": "-1",
-                "img": ""
+                "img": "ambush"
             }
         ]
     },
