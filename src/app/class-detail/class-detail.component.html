@@ -1,6 +1,25 @@
+
+
 <app-back-button></app-back-button>
 
 
-<div class="name">
-  {{currentClass?.class}}
+<div class="container">
+  <div class="class-header">
+    <div class="name">
+      <p>{{currentClass?.class}}</p>
+    </div>
+    <div class="class-desc">
+      <p>{{currentClass?.desc}}</p>
+    </div>
+    <div class="class-img">
+      <!-- <img src="{{url}}" alt=""> -->
+    </div>
+    <div class="class-school">
+      <p>School of {{currentClass?.school}}</p>
+    </div>
+    <div class="class-role">
+      <p>{{currentClass?.role}}</p>
+    </div>
+  </div>
+
 </div>

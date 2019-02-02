@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { SharedModule } from './shared/shared.module';
 import { FilterPipe } from './shared/pipes/filter.pipe';
 import { ClassDetailComponent } from './class-detail/class-detail.component';
+import { SkillComponent } from './skill/skill.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ClassDetailComponent } from './class-detail/class-detail.component';
     AppComponent,
     HomeComponent,
     FilterPipe,
-    ClassDetailComponent
+    ClassDetailComponent,
+    SkillComponent
   ],
   imports: [
     NgbModule,

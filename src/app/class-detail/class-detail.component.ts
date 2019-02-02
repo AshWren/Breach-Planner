@@ -16,8 +16,11 @@ import { DataService } from '../shared/services/data.service';
 })
 export class ClassDetailComponent implements OnInit {
   slug: string;
-  data: Data[];
+  data: Data[] = [];
   currentClass: Data;
+  image: string;
+  url: string;
+  imgPath: string;
 
 
   getCurrentClass(data){
@@ -32,8 +35,18 @@ export class ClassDetailComponent implements OnInit {
       if (params['slug'] !== undefined) {
       this.slug = params['slug'];}});
 
+    // this.dataService.getData()
+    //   .subscribe((data) => {
+    //     this.data = this.buildImgPaths(data);
+    //   });
+
     this.initializeData();
+    // this.buildImgPaths(this.data);
       
+    // let slug = this.slug;
+    // let image = this.currentClass.img;
+    // this.url = "./assets/images/"+slug+"/"+image+"_icon.png"
+    // console.log('url', this.url)
   }
 
   async initializeData() {
@@ -42,4 +55,21 @@ export class ClassDetailComponent implements OnInit {
     console.log('current class', this.currentClass);
   }
 
+  
+  // buildImgPaths(data) {
+  //   let myImgPath = './assets/images/';
+  //   let imgType = '_icon.png';
+    
+  //   this.imgPath =  myImgPath + data.slug + '/' + data.img + imgType;
+
+  //   console.log('rel', this.imgPath)
+
+  //   // for(let i = 0; i < data.length; i++) {
+  //   //   data[i].relativeImgPath = myImgPath + data[i].slug + '/' + data[i].img + imgType;
+  //   //   console.log('rel', data[i].relativeImgPath)
+  //   // }
+  //   return this.imgPath;
+  // }
 }
+
+
