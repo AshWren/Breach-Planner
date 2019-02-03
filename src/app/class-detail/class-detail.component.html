@@ -9,7 +9,7 @@
       <p>{{currentClass?.desc}}</p>
     </div>
     <div class="class-img">
-      
+      <img src="{{imgPath}}" alt="">
     </div>
     <div class="class-school">
       <p>School of {{currentClass?.school}}</p>
@@ -18,4 +18,18 @@
       <p>{{currentClass?.role}}</p>
     </div>
   </div>
+
+
+  <div class="skills">
+    <div 
+      class="skill-container"
+      *ngFor="let item of classSpells">
+      
+        <app-skill
+          [slug]='currentClass?.slug'
+          [item]='item'>
+        </app-skill>
+    </div>
+  </div>
 </div>
+

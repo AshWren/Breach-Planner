@@ -1,3 +1,58 @@
-<p>
-  skill works!
-</p>
+
+<div class="container">
+  <div class="skill-header">
+    <div class="skill-key">
+      <p>{{item.key}}</p>
+    </div>
+    <div class="skill-img">
+      <img src="{{url}}" alt="">
+    </div>
+    <div class="skill-name">
+      <p>{{item.name}}</p>
+    </div>
+  </div>
+  
+  <div class="skill-desc">
+    <p class=toggle-btn>
+      <button 
+        type="button" 
+        class="toggle" 
+        (click)="isCollapsed = !isCollapsed"
+        [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+        <div 
+          style="text-align:center; color: #65ADD9">
+          <fa-icon 
+            [icon]="['fas', 'info-circle']">
+          </fa-icon>
+        </div>
+      </button>
+    </p>
+    <div 
+       
+      class="card-container"
+      [ngbCollapse]="isCollapsed">
+      <div class="card">
+        <div class="card-body">
+          <div class="skill-maxCharge">
+            <p>Max-Charges: {{item.maxCharges}}</p>
+          </div>
+          <div class="skill-cooldown">
+            <p>Cooldown: {{item.cooldown}}</p>
+          </div>
+          <div class="skill-desc1">
+            <p>{{item.desc}}</p>
+          </div>
+          <div class="skill-desc2">
+            <p>{{item.desc2}}</p>
+          </div>
+          <div class="skill-addInfo">
+            <p>{{item.addInfo}}</p>
+          </div>
+          <div class="skill-unlockLevel">
+            <p>Level Unlocked: {{item.unlockLevel}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

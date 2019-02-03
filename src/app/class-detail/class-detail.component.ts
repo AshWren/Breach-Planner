@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
 
-import { Data } from '../shared/data';
+import { Data, Spells } from '../shared/data';
 import { DataService } from '../shared/services/data.service';
 
 
@@ -21,6 +21,7 @@ export class ClassDetailComponent implements OnInit {
   image: string;
   url: string;
   imgPath: string;
+  classSpells: Spells[];
 
 
   getCurrentClass(data){
@@ -35,18 +36,8 @@ export class ClassDetailComponent implements OnInit {
       if (params['slug'] !== undefined) {
       this.slug = params['slug'];}});
 
-    // this.dataService.getData()
-    //   .subscribe((data) => {
-    //     this.data = this.buildImgPaths(data);
-    //   });
-
     this.initializeData();
-    // this.buildImgPaths(this.data);
-      
-    // let slug = this.slug;
-    // let image = this.currentClass.img;
-    // this.url = "./assets/images/"+slug+"/"+image+"_icon.png"
-    // console.log('url', this.url)
+
   }
 
   async initializeData() {
@@ -54,10 +45,15 @@ export class ClassDetailComponent implements OnInit {
     this.currentClass = this.data.find(x => x.slug === this.slug);
     console.log('current class', this.currentClass);
 
+    this.classSpells = this.currentClass.spells;
+    console.log('spells', this.classSpells)
+
     let myImgPath = './assets/images/';
     let imgType = '_icon.png';
     this.imgPath = myImgPath + this.currentClass.slug + '/' + this.currentClass.img + imgType;
     console.log('imgPath', this.imgPath)
+
+    
   }
 
   

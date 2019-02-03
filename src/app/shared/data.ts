@@ -11,11 +11,11 @@ export class Data {
 export interface Spells {
     key: string;
     name: string;
-    max_charges: string;
+    maxCharges: string;
     cooldown: string;
     desc: string;
     desc2: string;
-    add_info: string;
-    unlock_level: string;
+    addInfo: string;
+    unlockLevel: number;
     img: string;
 }

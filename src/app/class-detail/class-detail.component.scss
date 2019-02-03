@@ -1,6 +1,8 @@
 .container {
     display: flex;
+    flex-direction: column;
     margin: 0 auto;
+
     .class-header {
         display: flex;
         flex-direction: column;
@@ -59,4 +61,17 @@
             }// p
         }// .class-role
     }// .class-header
+
+    .skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+
+        .skill-container {
+            padding: 20px;
+            margin: 5px;
+        }// .skill-container
+    }// .skills
 }// .container
